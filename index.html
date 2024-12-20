@@ -4,48 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting...</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        padding: 20px;
-      }
-
-      #redirect-options {
-        display: none;
-        margin-top: 20px;
-      }
-
-      p {
-        font-size: 18px;
-        color: #333;
-      }
-
-      .redirect-link {
-        display: inline-block;
-        margin: 10px;
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        font-size: 16px;
-        transition: background-color 0.3s;
-      }
-
-      .redirect-link:hover {
-        background-color: #0056b3;
-      }
-
-      .redirect-list {
-        list-style-type: none;
-        padding: 0;
-      }
-
-      .redirect-list li {
-        margin: 10px 0;
-      }
-    </style>
     <script>
       const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
@@ -65,11 +23,11 @@
   </head>
   <body>
     <p>Redirecting...</p>
-    <div id="redirect-options">
+    <div id="redirect-options" style="display: none;">
       <p>We couldn't detect your device. Please choose where you'd like to go:</p>
-      <ul class="redirect-list">
-        <li><a class="redirect-link" href="https://play.google.com/store/apps/details?id=com.solowatch.mobileapp">Google Play Store (Android)</a></li>
-        <li><a class="redirect-link" href="https://testflight.apple.com/join/zd2C92tT">TestFlight (Apple)</a></li>
+      <ul>
+        <li><a href="https://play.google.com/store/apps/details?id=com.solowatch.mobileapp">Google Play Store (Android)</a></li>
+        <li><a href="https://testflight.apple.com/join/zd2C92tT">TestFlight (Apple)</a></li>
       </ul>
     </div>
   </body>
