@@ -55,20 +55,9 @@
         // Redirect to TestFlight for iOS
         window.location.href = "https://apps.apple.com/gb/app/sololink/id6741334466";
       } else {
-        // Show redirection options for unrecognized devices
-        document.addEventListener("DOMContentLoaded", () => {
-          document.getElementById("redirect-options").style.display = "block";
+        window.location.href = "https://www.sololink.co.uk";
         });
       }
     </script>
   </head>
-  <body>
-    <div id="redirect-options">
-      <p>We couldn't detect your device. Please choose where you'd like to go:</p>
-      <ul class="redirect-list">
-        <li><a class="redirect-link" href="https://play.google.com/store/apps/details?id=com.sololink.mobileapp">Google Play Store (Android)</a></li>
-        <li><a class="redirect-link" href="https://apps.apple.com/gb/app/sololink/id6741334466">App Store</a></li>
-      </ul>
-    </div>
-  </body>
 </html>
